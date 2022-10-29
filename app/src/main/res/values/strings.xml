@@ -33,4 +33,6 @@
     <string name="show_password_check">Show Password</string>
     <string name="sign_up_signup">Sign Up</string>
     <string name="already_registered_login_signup">Already Registered? Login</string>
+    <string name="new_here_create_account_txt">New Here? Create Account</string>
+    <string name="tap_to_sign_in_with_google_account">Tap to Sign In with Google Account</string>
 </resources>

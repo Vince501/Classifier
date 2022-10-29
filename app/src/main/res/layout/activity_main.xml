@@ -120,7 +120,6 @@
         android:layout_width="138dp"
         android:layout_height="42dp"
         android:layout_marginStart="8dp"
-        android:inputType="textVisiblePassword"
         android:text="@string/show_password_checkboxLogin"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -135,7 +134,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="36dp"
-        android:text="New Here? Create Account"
+        android:text="@string/new_here_create_account_txt"
         android:textColor="@color/black"
         android:textSize="18sp"
         android:textStyle="bold|italic"
@@ -156,6 +155,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3"
         app:layout_constraintVertical_bias="0.383" />
+
+    <ImageView
+        android:id="@+id/google"
+        android:layout_width="318dp"
+        android:layout_height="58dp"
+        android:contentDescription="@string/tap_to_sign_in_with_google_account"
+        app:layout_constraintBottom_toTopOf="@+id/forgot_password"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_login"
+        app:layout_constraintVertical_bias="0.447"
+        app:srcCompat="@drawable/signin_google" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
