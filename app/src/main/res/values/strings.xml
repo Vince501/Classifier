@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Classifier</string>
+    <string name="sign_in">Sign In</string>
+    <string name="enter_your_email_address_login">Enter your Email Address</string>
+    <string name="enter_your_password_login">Enter your Password</string>
+    <string name="email_login">Email</string>
+    <string name="passwordtxt_login">Password</string>
+    <string name="logintxt_login">LOGIN</string>
+    <string name="forgot_password_login">Forgot Password?</string>
+    <string name="show_password_login">Show</string>
+    <string name="show_password_checkboxLogin">Show Password</string>
+    <string name="hide_password_checkboxLogin">Hide Password</string>
+    <string name="title_activity_signup">SignupActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="enter_your_full_name_signup">Enter your Full Name</string>
+    <string name="sign_up_txt">Sign Up</string>
+    <string name="full_name_txt">Full Name</string>
+    <string name="email_txt">Email</string>
+    <string name="enter_your_email_address_signup">Enter your Email Address</string>
+    <string name="enter_preferred_password_signup">Enter Preferred Password</string>
+    <string name="password_txt">Password</string>
+    <string name="phone_no_txt">Phone No.</string>
+    <string name="enter_your_phone_no_signup">Enter Your Phone No.</string>
+    <string name="enter_your_preferred_username_signup">Enter Your Preferred Username</string>
+    <string name="username_txt">Username</string>
+    <string name="show_password_check">Show Password</string>
+    <string name="sign_up_signup">Sign Up</string>
+    <string name="already_registered_login_signup">Already Registered? Login</string>
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "673963800636",
+    "project_id": "classifier-banana",
+    "storage_bucket": "classifier-banana.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:673963800636:android:7b0dffcb63f02957b42b39",
+        "android_client_info": {
+          "package_name": "com.example.classifier"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "673963800636-4aqvjial59boip3253hgn2n50sd29o20.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwPunbCUx-xM9S0_TC1AiwBYpvVYnbCVk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "673963800636-4aqvjial59boip3253hgn2n50sd29o20.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
