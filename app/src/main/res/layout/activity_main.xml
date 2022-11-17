@@ -127,10 +127,10 @@
         app:layout_constraintHorizontal_bias="0.545"
         app:layout_constraintStart_toEndOf="@+id/password_login"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.505" />
+        app:layout_constraintVertical_bias="0.467" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/createText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="36dp"
@@ -153,11 +153,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/createText"
         app:layout_constraintVertical_bias="0.383" />
 
     <ImageView
-        android:id="@+id/google"
+        android:id="@+id/googleimg"
         android:layout_width="318dp"
         android:layout_height="58dp"
         android:contentDescription="@string/tap_to_sign_in_with_google_account"

@@ -35,4 +35,8 @@
     <string name="already_registered_login_signup">Already Registered? Login</string>
     <string name="new_here_create_account_txt">New Here? Create Account</string>
     <string name="tap_to_sign_in_with_google_account">Tap to Sign In with Google Account</string>
+    <string name="welcome_txt">WELCOME</string>
+    <string name="name_txt">Name</string>
+    <string name="mail_txt">Mail</string>
+    <string name="logout_txt">Logout</string>
 </resources>
