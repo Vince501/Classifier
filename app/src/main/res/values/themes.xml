@@ -20,12 +20,4 @@
         <item name="android:statusBarColor">?attr/colorPrimary</item>
     </style>
 
-    <style name="Theme.Classifier.NoActionBar">
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
-    </style>
-
-    <style name="Theme.Classifier.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
-
-    <style name="Theme.Classifier.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>
