@@ -18,11 +18,9 @@ import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 
-
 import com.example.classifier.ml.Model2;
 
 import org.tensorflow.lite.DataType;
-import org.tensorflow.lite.schema.Model;
 import org.tensorflow.lite.support.tensorbuffer.TensorBuffer;
 
 import java.io.IOException;
@@ -107,7 +105,7 @@ public class classifer2Activity extends AppCompatActivity {
                     maxPos = i;
                 }
             }
-            String[] classes = {"Developing Stage", "Maturity Stage", "Early Development Stage"};
+            String[] classes = {"Early Development Stage","Developing Stage", "Maturity Stage"};
             result.setText(classes[maxPos]);
 
             // Releases model resources if no longer used.
