@@ -4,7 +4,7 @@
     package="com.example.classifier">
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.CAMERA" />
 
     <application
         android:allowBackup="true"
@@ -17,9 +17,11 @@
         android:theme="@style/Theme.Classifier"
         tools:targetApi="31">
         <activity
+            android:name=".classifer2Activity"
+            android:exported="false" />
+        <activity
             android:name=".classiferActivity"
             android:exported="false" />
-
         <activity
             android:name=".HomeActivity"
             android:exported="true" />

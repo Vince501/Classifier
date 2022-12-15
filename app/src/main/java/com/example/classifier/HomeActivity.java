@@ -30,7 +30,7 @@ public class HomeActivity extends AppCompatActivity {
 
     TextView name,mail;
     Button logout;
-    ImageView changeActivity;
+    ImageView changeActivity, changeActivity2;
 
     GoogleSignInOptions gso;
     GoogleSignInClient gsc;
@@ -44,6 +44,7 @@ public class HomeActivity extends AppCompatActivity {
         mail = findViewById(R.id.mail_home);
         logout = findViewById(R.id.logout_button);
         changeActivity = findViewById(R.id.buttonClassify);
+        changeActivity2 = findViewById(R.id.buttonClassify2);
 
         gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN).requestEmail().build();
 
@@ -69,6 +70,14 @@ public class HomeActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), classiferActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        changeActivity2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), classifer2Activity.class);
                 startActivity(intent);
             }
         });

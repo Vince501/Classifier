@@ -106,7 +106,7 @@ public class classiferActivity extends AppCompatActivity {
                     maxPos = i;
                 }
             }
-            String[] classes = {"mold", "over_ripe", "ripe", "rotten", "unripe"};
+            String[] classes = {"over_ripe", "ripe", "rotten", "unripe"};
             result.setText(classes[maxPos]);
 
             // Releases model resources if no longer used.
